@@ -1,20 +1,26 @@
 body{
    background-color: rgba(195, 171, 171, .5);
 }
+h1{
+   text-align: center;
+   color: #af704c;
+}
 .progress-container{
    width: 100%;
    height: 8px;
-   background-color: #ccc;
+   background-color: #d09595;
    left: 0;
    top: 0;
    right: 0;
    position: fixed;
    z-index: 1;
+   border-radius: 5px;
 }
 .progress-bar{
    height: 8px;
-   background-color: #4c98af;
+   background-color: #af664c;
    width: 0%;
+   border-radius: 5px;
 }
 .txt{
    margin: 0 auto;
